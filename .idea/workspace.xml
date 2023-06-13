@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40fd4ffa-4c30-4782-b02d-75217a56df7b" name="Changes" comment="Add AlunoController com as rotas">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/jeanalvesr/ApplicationEscola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/jeanalvesr/ApplicationEscola.java" afterDir="false" />
-    </list>
+    <list default="true" id="40fd4ffa-4c30-4782-b02d-75217a56df7b" name="Changes" comment="Backend finalizado" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +53,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "e3c63a1037733a297d0f7866eb0bbad9",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -104,6 +102,7 @@
       <workItem from="1686628975540" duration="14664000" />
       <workItem from="1686651060162" duration="11922000" />
       <workItem from="1686680199591" duration="34000" />
+      <workItem from="1686680270093" duration="39000" />
     </task>
     <task id="LOCAL-00001" summary="primeiro commit -&gt; Workplace criado">
       <created>1686637602299</created>
@@ -189,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686667147519</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Backend finalizado">
+      <created>1686680303590</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686680303590</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +225,7 @@
     <MESSAGE value="add AlunoServiceImp" />
     <MESSAGE value="Retirada do commandLineRunner do ApplicationEscola" />
     <MESSAGE value="Add AlunoController com as rotas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add AlunoController com as rotas" />
+    <MESSAGE value="Backend finalizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backend finalizado" />
   </component>
 </project>
