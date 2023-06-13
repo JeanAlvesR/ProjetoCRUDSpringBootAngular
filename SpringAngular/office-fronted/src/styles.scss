@@ -1,0 +1,41 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card{
+    padding: 20px;
+}
+
+
+h1{
+    text-align: center;
+    display: flexbox;
+    align-self: center;
+}
+
+.form-group{
+    padding: 5px;
+}
+
+#btnDelete{
+    margin-left: 13px;
+}
+
+.toast-top-center {
+    top: 12px;
+    margin: 0 auto;
+    left: 50%;
+    }
+
+.custom-shadow {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
+  }
+
+#btLimpar {
+    margin-left: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+      
