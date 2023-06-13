@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40fd4ffa-4c30-4782-b02d-75217a56df7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/jeanalvesr/ApplicationEscola.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/jeanalvesr/domain/entities/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/jeanalvesr/domain/repositories/AlunoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/jeanalvesr/domain/service/AlunoService.java" afterDir="false" />
+    <list default="true" id="40fd4ffa-4c30-4782-b02d-75217a56df7b" name="Changes" comment="Controller Advice e ApiErros para tratar as possíveis exceptions disparadas add">
       <change afterPath="$PROJECT_DIR$/src/main/java/github/jeanalvesr/domain/service/impl/ServiceAlunoImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/github/jeanalvesr/rest/controllers/AlunoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/jeanalvesr/ApplicationEscola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/jeanalvesr/ApplicationEscola.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/jeanalvesr/domain/service/AlunoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/jeanalvesr/domain/service/AlunoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +30,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2R8PwMWIbNyqAh8w4BvMMbZFulK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -62,6 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -111,11 +96,91 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686628974368</updated>
-      <workItem from="1686628975540" duration="5778000" />
+      <workItem from="1686628975540" duration="14664000" />
+      <workItem from="1686651060162" duration="8762000" />
     </task>
+    <task id="LOCAL-00001" summary="primeiro commit -&gt; Workplace criado">
+      <created>1686637602299</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686637602299</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Entidade aluno criada.">
+      <created>1686637631547</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686637631547</updated>
+    </task>
+    <task id="LOCAL-00003" summary="AlunoRepository criado.">
+      <created>1686637688180</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686637688180</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Interface AlunoService criada.">
+      <created>1686637888706</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686637888706</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Aluno refatorado">
+      <created>1686666889226</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686666889226</updated>
+    </task>
+    <task id="LOCAL-00006" summary="AlunoDto e AlunoSaveDto add">
+      <created>1686666946637</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686666946637</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add exceptions: EntityNotFound e AtributoIlegalException">
+      <created>1686666972801</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686666972801</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Controller Advice e ApiErros para tratar as possíveis exceptions disparadas add">
+      <created>1686667006998</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686667006998</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="primeiro commit -&gt; Workplace criado" />
+    <MESSAGE value="Entidade aluno criada." />
+    <MESSAGE value="AlunoRepository criado." />
+    <MESSAGE value="Interface AlunoService criada." />
+    <MESSAGE value="Aluno refatorado" />
+    <MESSAGE value="AlunoDto e AlunoSaveDto add" />
+    <MESSAGE value="add exceptions: EntityNotFound e AtributoIlegalException" />
+    <MESSAGE value="Controller Advice e ApiErros para tratar as possíveis exceptions disparadas add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controller Advice e ApiErros para tratar as possíveis exceptions disparadas add" />
   </component>
 </project>
