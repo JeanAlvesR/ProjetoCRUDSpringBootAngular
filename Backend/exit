@@ -1,0 +1,83 @@
+[33mcommit 64816caa89cce19655dd770dab95e9395a45c94b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Jean Alves <engjeanr@gmail.com>
+Date:   Tue Jun 13 15:18:57 2023 -0300
+
+    workspace
+
+[33mcommit fdcaf877cb1baa0bdfe8683bcb08b436cb038f9e[m
+Author: Jean Alves <engjeanr@gmail.com>
+Date:   Tue Jun 13 15:18:23 2023 -0300
+
+    Backend finalizado
+
+[33mcommit 62fb0df2bfdcd838b5b17f6bcc800e324608c7dc[m
+Author: Jean Alves <engjeanr@gmail.com>
+Date:   Tue Jun 13 11:39:07 2023 -0300
+
+    Add AlunoController com as rotas
+
+[33mcommit 9192ab51c7ef1cb0c5904b5a3e96494d748aa9ad[m
+Author: Jean Alves <engjeanr@gmail.com>
+Date:   Tue Jun 13 11:38:25 2023 -0300
+
+    Retirada do commandLineRunner do ApplicationEscola
+
+[33mcommit 2698a32d5219b8a8597452be6c1b7e9fdd9354ee[m
+Author: Jean Alves <engjeanr@gmail.com>
+Date:   Tue Jun 13 11:37:56 2023 -0300
+
+    add AlunoServiceImp
+
+[33mcommit 34f07097eb3eb74d823cbee0dd9d2f3cd0acb3fb[m
+Author: Jean Alves <engjeanr@gmail.com>
+Date:   Tue Jun 13 11:37:38 2023 -0300
+
+    add Inteface AlunoService para injecao de dependencia via spring boot
+
+[33mcommit 21fc0c3ef2e383df983ddaeaefe5351d3a8afe91[m
+Author: Jean Alves <engjeanr@gmail.com>
+Date:   Tue Jun 13 11:36:46 2023 -0300
+
+    Controller Advice e ApiErros para tratar as possíveis exceptions disparadas add
+
+[33mcommit 4b4bcb1569f249ee6db20d5a24f963ca9923f69c[m
+Author: Jean Alves <engjeanr@gmail.com>
+Date:   Tue Jun 13 11:36:12 2023 -0300
+
+    add exceptions: EntityNotFound e AtributoIlegalException
+
+[33mcommit 2fe7fe827bc0f20e33bc77591a22a24b7bc147e5[m
+Author: Jean Alves <engjeanr@gmail.com>
+Date:   Tue Jun 13 11:35:46 2023 -0300
+
+    AlunoDto e AlunoSaveDto add
+
+[33mcommit e93411f6e2c22e296ee56586ba9eaed120428e1a[m
+Author: Jean Alves <engjeanr@gmail.com>
+Date:   Tue Jun 13 11:34:48 2023 -0300
+
+    Aluno refatorado
+
+[33mcommit ad77a40349d165bad5316a947ebd38dcd5bad69e[m
+Author: Jean <engjeanr@gmail.com>
+Date:   Tue Jun 13 03:31:28 2023 -0300
+
+    Interface AlunoService criada.
+
+[33mcommit 2c2a469cadb9bcba4587273197dbae711a4dd99a[m
+Author: Jean <engjeanr@gmail.com>
+Date:   Tue Jun 13 03:28:07 2023 -0300
+
+    AlunoRepository criado.
+
+[33mcommit cf809f702e7c530cf2163bf61a430811181aca84[m
+Author: Jean <engjeanr@gmail.com>
+Date:   Tue Jun 13 03:27:11 2023 -0300
+
+    Entidade aluno criada.
+
+[33mcommit 119adfe551438e434860592b7a3196eeee0a3291[m
+Author: Jean <engjeanr@gmail.com>
+Date:   Tue Jun 13 03:26:42 2023 -0300
+
+    primeiro commit -> Workplace criado
