@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40fd4ffa-4c30-4782-b02d-75217a56df7b" name="Changes" comment="Controller Advice e ApiErros para tratar as possíveis exceptions disparadas add">
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/jeanalvesr/domain/service/impl/ServiceAlunoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/jeanalvesr/rest/controllers/AlunoController.java" afterDir="false" />
+    <list default="true" id="40fd4ffa-4c30-4782-b02d-75217a56df7b" name="Changes" comment="Add AlunoController com as rotas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/github/jeanalvesr/ApplicationEscola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/jeanalvesr/ApplicationEscola.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/jeanalvesr/domain/service/AlunoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/jeanalvesr/domain/service/AlunoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +27,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2R8PwMWIbNyqAh8w4BvMMbZFulK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,6 +51,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/jeanc/OneDrive/UTFPR/Arquitetura de Software/Backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -97,7 +102,8 @@
       <option name="presentableId" value="Default" />
       <updated>1686628974368</updated>
       <workItem from="1686628975540" duration="14664000" />
-      <workItem from="1686651060162" duration="8762000" />
+      <workItem from="1686651060162" duration="11922000" />
+      <workItem from="1686680199591" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="primeiro commit -&gt; Workplace criado">
       <created>1686637602299</created>
@@ -155,7 +161,35 @@
       <option name="project" value="LOCAL" />
       <updated>1686667006998</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add Inteface AlunoService para injecao de dependencia via spring boot">
+      <created>1686667058545</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686667058545</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add AlunoServiceImp">
+      <created>1686667076879</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686667076879</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Retirada do commandLineRunner do ApplicationEscola">
+      <created>1686667105875</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1686667105875</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add AlunoController com as rotas">
+      <created>1686667147519</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686667147519</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +215,10 @@
     <MESSAGE value="AlunoDto e AlunoSaveDto add" />
     <MESSAGE value="add exceptions: EntityNotFound e AtributoIlegalException" />
     <MESSAGE value="Controller Advice e ApiErros para tratar as possíveis exceptions disparadas add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Controller Advice e ApiErros para tratar as possíveis exceptions disparadas add" />
+    <MESSAGE value="add Inteface AlunoService para injecao de dependencia via spring boot" />
+    <MESSAGE value="add AlunoServiceImp" />
+    <MESSAGE value="Retirada do commandLineRunner do ApplicationEscola" />
+    <MESSAGE value="Add AlunoController com as rotas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add AlunoController com as rotas" />
   </component>
 </project>
