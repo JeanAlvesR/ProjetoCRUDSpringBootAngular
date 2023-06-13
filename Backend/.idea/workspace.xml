@@ -19,7 +19,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,11 +48,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/jeanc/OneDrive/UTFPR/Arquitetura de Software/Backend",
+    "last_opened_file_path": "C:/Users/jeanc/OneDrive/UTFPR/Arquitetura de Software/Aplicacao/Backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "spring.configuration.checksum": "e3c63a1037733a297d0f7866eb0bbad9",
     "vue.rearranger.settings.migration": "true"
   }
@@ -103,6 +104,7 @@
       <workItem from="1686651060162" duration="11922000" />
       <workItem from="1686680199591" duration="34000" />
       <workItem from="1686680270093" duration="39000" />
+      <workItem from="1686680780809" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="primeiro commit -&gt; Workplace criado">
       <created>1686637602299</created>
