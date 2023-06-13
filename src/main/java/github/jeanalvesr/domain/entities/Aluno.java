@@ -15,10 +15,8 @@ public class Aluno {
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "minhaEntidadeSequence")
     private Integer id;
     private String nome;
+    private String endereco;
     private String telefone;
 
-    public Aluno(String nome, String telefone){
-        this.nome = nome;
-        this.telefone = telefone;
-    }
+
 }
